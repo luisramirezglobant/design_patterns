@@ -48,6 +48,6 @@ house = Product('House', Color.BLUE, Size.LARGE)
 products = [apple, tree, house]
 
 pf = ProductFilter()
-print('Green products (old):')
+print('Green products:')
 for p in pf.filter_by_color(products, Color.GREEN):
     print(f' - {p.name} is green')

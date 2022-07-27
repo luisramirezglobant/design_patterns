@@ -28,6 +28,7 @@ class Product:
 
 class Filter:
     # general porpouse filter
+    # filter from an Iterable (items) and certain condition (specification)
     def filter(self, items, spec):
         pass
 
@@ -46,7 +47,7 @@ class SizeSpecification(Specification):
         return item.size == self.size
 
 class AndSpecification(Specification):
-    # Combinator
+    # Combinator: structure that combine other structures
     def __init__(self, *args):
         self.args = args
 
@@ -70,7 +71,7 @@ products = [apple, tree, house]
 
 bf = BetterFilter()
 
-print('Green products (new):')
+print('Green products:')
 green = ColorSpecification(Color.GREEN)
 for p in bf.filter(products, green):
     print(f' - {p.name} is green')
