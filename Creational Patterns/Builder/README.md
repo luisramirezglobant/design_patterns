@@ -33,3 +33,4 @@ The **creator** is in charge of implement the needed factory, basically is a cla
 ## Summarizing
 The builder allows the creation of object down to smaller construction process to be more flexible and adaptable to different situations, this may work for different type of clients or users or usually times where the construction of an object may vary due to certain conditions.
 
+>Creates some type of object (Concrete products) but with different receips (different builders).
