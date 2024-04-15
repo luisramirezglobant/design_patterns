@@ -1,5 +1,6 @@
+from abc import ABC
 # Component Interface
-class Coffee:
+class Coffee(ABC):
     def cost(self):
         pass
 
