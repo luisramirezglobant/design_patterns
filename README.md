@@ -31,3 +31,9 @@ Structural patterns focus on how we plug different classes and objects together 
 Behavioral patterns are really about the "conversation" between your objects. They help define how different parts of your code talk to each other and how they share the workload. By using these, you can make sure that information flows smoothly and that each part of your system knows exactly what it is supposed to do, which keeps the logic organized and easy to follow.
 
 ## SOLID
+
+
+## Useful Terms
+
+Client Code: Code that uses certain piece of code or component. For a class `PaymentProcessor`, any code that creates an instance of the class is **client code**.
+
