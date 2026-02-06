@@ -13,3 +13,15 @@ The intent of the Facade pattern is to provide a simplified interface to a compl
 Objects that has been passed as parameter their methods can be called.
 - Invoke methods that you've create yourself. So all the objects (and it's) methods created inside an allowed method, can be invoked as well.
 - Methods on a component of this object. All the classes instantiated within a allowed method can be invoked as well.
+
+
+### Conditions to use Facade Pattern
+- Simpplify interaction with your subsystem for client classes (build interactive methods for the client).
+- Need a class to act as interface between your subsystem and the client class.
+
+
+### Steps to implement the Facade
+1. Design the interface 
+2. Implement the interface with one or more classes
+3. Create the Facade class and wrapp the classes tha implement the interface
+4. Use the Facade class to access the subsystem

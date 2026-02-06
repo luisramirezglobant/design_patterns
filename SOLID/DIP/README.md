@@ -1,5 +1,5 @@
 # Design patterns
-## _Interface Segregation Principle_
+## _Dependency Inversion Principle_
 **_High level modules should not depend on low level modules_**
 
 > High-level modules, which provide complex logic, should be easily reusable and unaffected by changes in low-level modules, which provide utility features.
