@@ -19,7 +19,7 @@ def main():
 
     # Create another device and streaming service
     device2 = DroneCamera()
-    service2 = TwitchStreamingService(device)
+    service2 = TwitchStreamingService(device2)
 
     # Start streaming as well
     reference2 = service2.start_stream()
