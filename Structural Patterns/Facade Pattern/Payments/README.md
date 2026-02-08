@@ -1,5 +1,4 @@
 ```mermaid blocks
-
 classDiagram
     %% Data Models
     class PaymentStatus {
